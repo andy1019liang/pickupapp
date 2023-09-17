@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+.page {
+    background-color: whitesmoke;
+    border: 1px solid #dbd8cf;
+    box-shadow: -44px 120px 80px -72px #fff inset, -44px -120px 80px -72px #fff inset;
+    min-height: 100vh;
+    padding: 25px;
+
+}

@@ -1,0 +1,19 @@
+<div class="page">
+  <div class="d-flex">
+    <h2>Manage Users</h2>
+    <div class="btn">
+      <a [routerLink]="['/admin/users/new']">
+          Create User
+      </a>
+    </div>
+  </div>
+    
+
+    <ag-grid-angular
+   class="ag-theme-alpine grid"
+   [columnDefs]="columnDefs"
+   [defaultColDef]="defaultColDef"
+   [rowData]="rowData$ | async"
+   (gridReady)="onGridReady($event)"
+ ></ag-grid-angular>
+</div>
